@@ -20,7 +20,7 @@ const MonCorrespondant = () => {
                 </div>
                 <div className="col-6 col-lg-8 col-xl-6 ps-4">
                     <h4>Idkls</h4>
-                    <p className="phoneNumber">07 68 17 27 57</p>
+                    <p className="phoneNumber">06 55 55 55 55</p>
                 </div>
                 <div className="col-4 col-lg-6 col-xl-4">
                     <CustomButton text={'Contacter'} style={'correspondant'} />
