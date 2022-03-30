@@ -16,6 +16,9 @@ const Navigation = () => {
                 <DashboardIcon className="icon" />
                 <p>Dashboard</p>
             </div>
+            <div className="menuText">
+                <p>Avantages</p>
+            </div>
             <div className="navItems">
                 <OffersIcon className="icon" />
                 <p>Offres</p>
@@ -27,6 +30,9 @@ const Navigation = () => {
             <div className="navItems">
                 <CommandesIcon className="icon" />
                 <p>Commandes</p>
+            </div>
+            <div className="menuText">
+                <p>Profil</p>
             </div>
             <div className="navItems">
                 <SettingsIcon className="icon" />
