@@ -1,0 +1,47 @@
+.navigationContainer {
+    background-color: #57869E;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+    .navItems {
+        display: flex;
+        margin-left: 10px;
+        align-items: center;
+        cursor: pointer;
+        padding: 10px 10px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 20px 0 0 20px;
+        transition: 0.2s ease-in-out;
+
+        p {
+            color: #E3E3E3;
+            margin: 0;
+            font-size: 120%;
+            margin-left: 60px;
+            font-weight: 600;
+            transition: 0.2s ease-in-out;
+        }
+    
+        .icon {
+            min-width: 40px;
+            transition: 0.2s ease-in-out;
+        }
+
+        &:hover {
+            background-color: white;
+            
+            p {
+                color: orange;
+            }
+
+            .icon {
+                fill: orange;
+            }
+        }
+    }
+
+}
