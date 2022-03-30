@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 import LoqualisLogo from './assets/loqualisLogo.png';
 import NavExpandIcon from './assets/navOpenIcon.svg';
+import MesCommandes from './components/mesCommandes/mesCommandes.component';
 import MesInformations from './components/mesInformations/mesInformations.component';
 import MonCorrespondant from './components/monCorrespondant/monCorrespondant.component';
 import Navigation from './components/navigation/navigation.component';
@@ -42,6 +43,9 @@ const App = () => {
               </div>
               <div className="col-12 col-md-4 d-flex justify-content-center mb-4">
                 <MonCorrespondant />
+              </div>
+              <div className="col-12 col-md-8 d-flex justify-content-center mb-4">
+                <MesCommandes />
               </div>
             </div>
           </div>
