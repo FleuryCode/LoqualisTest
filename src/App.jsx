@@ -30,9 +30,10 @@ const App = () => {
           <Navigation />
         </div>
         <div id="mainInfo">
-          <div onClick={navigationButtonClickHandle} className="navOpenImage">
+          <div onClick={navigationButtonClickHandle} className="navOpenImage d-none d-md-block">
             <img id='navOpenButton' src={NavExpandIcon} alt="" />
           </div>
+          
         </div>
       </div>
 
