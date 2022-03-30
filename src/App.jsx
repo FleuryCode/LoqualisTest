@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 import LoqualisLogo from './assets/loqualisLogo.png';
 import NavExpandIcon from './assets/navOpenIcon.svg';
+import CustomButton from './components/customButton/customButton.component';
 import Navigation from './components/navigation/navigation.component';
 
 const App = () => {
@@ -33,7 +34,6 @@ const App = () => {
           <div onClick={navigationButtonClickHandle} className="navOpenImage d-none d-md-block">
             <img id='navOpenButton' src={NavExpandIcon} alt="" />
           </div>
-          
         </div>
       </div>
 
