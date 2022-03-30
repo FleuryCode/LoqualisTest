@@ -20,6 +20,22 @@ const Navigation = () => {
                 <OffersIcon className="icon" />
                 <p>Offres</p>
             </div>
+            <div className="navItems">
+                <PartnersIcon className="icon" />
+                <p>Partenaires</p>
+            </div>
+            <div className="navItems">
+                <CommandesIcon className="icon" />
+                <p>Commandes</p>
+            </div>
+            <div className="navItems">
+                <SettingsIcon className="icon" />
+                <p>Réglages</p>
+            </div>
+            <div className="navItems">
+                <LogoutIcon className="icon" />
+                <p>Se déconnecter</p>
+            </div>
         </div>
     );
 }
