@@ -20,7 +20,7 @@
         }
     }
 
-    .mainInfoContainer {
+    .mainContainer {
         display: flex;
         flex-direction: row;
         #mainNav {  
@@ -39,7 +39,6 @@
         #mainInfo {
             min-height: 90vh;
             margin-top: 10vh;
-            padding: 5%;
             width: calc(100% - 100px);
             margin-left: 100px;
             background-color: white;
@@ -48,6 +47,21 @@
             &.reducedInfo {
                 width: calc(100% - 300px);
                 margin-left: 300px;
+            }
+
+            .navOpenImage {
+                height: 32px;
+                margin-top: 1%;
+                margin-left: 1%;
+                cursor: pointer;
+
+                img {
+                    height: 100%;
+                    
+                    &.navIsOpen {
+                        transform: rotate(180deg);
+                    }
+                }
             }
         }
     }

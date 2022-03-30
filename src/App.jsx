@@ -1,18 +1,21 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 import LoqualisLogo from './assets/loqualisLogo.png';
+import NavExpandIcon from './assets/navOpenIcon.svg';
 import Navigation from './components/navigation/navigation.component';
 
 const App = () => {
-  const testClick = () => {
+
+  // Navigation Button Click
+  const navigationButtonClickHandle = () => {
     const nav = document.getElementById('mainNav');
     const info = document.getElementById('mainInfo');
-
+    const navOpenButton = document.getElementById('navOpenButton');
     nav.classList.toggle('expandedNav');
     info.classList.toggle('reducedInfo');
-
-
+    navOpenButton.classList.toggle('navIsOpen');
   }
+
   return (
     <div className="App container-fluid">
       <div className="row">
@@ -22,12 +25,14 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="row mainInfoContainer">
+      <div className="row mainContainer">
         <div id="mainNav">
           <Navigation />
         </div>
         <div id="mainInfo">
-          <button onClick={testClick}>Test</button>
+          <div onClick={navigationButtonClickHandle} className="navOpenImage">
+            <img id='navOpenButton' src={NavExpandIcon} alt="" />
+          </div>
         </div>
       </div>
 
