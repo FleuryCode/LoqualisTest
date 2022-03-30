@@ -1,8 +1,9 @@
 import React from "react";
-import ActusSpecific from "../actusSpecific/actusSpecific.component";
 import './actus.styles.scss';
+import ActusSpecific from "../actusSpecific/actusSpecific.component";
 
 const Actus = () => {
+    // Test Array to dynamically display Specific Actus.
     const actusArray = [1, 2, 3, 4];
     return(
         <div className="actusContainer container-fluid">

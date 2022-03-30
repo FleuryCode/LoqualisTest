@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
+// Logo
 import LoqualisLogo from './assets/loqualisLogo.png';
+// Components
 import NavExpandIcon from './assets/navOpenIcon.svg';
 import Actus from './components/actus/actus.component';
 import MesCommandes from './components/mesCommandes/mesCommandes.component';

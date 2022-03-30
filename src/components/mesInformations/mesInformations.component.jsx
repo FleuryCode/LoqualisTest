@@ -1,6 +1,6 @@
 import React from "react";
-import CustomButton from "../customButton/customButton.component";
 import './mesInformations.styles.scss';
+import CustomButton from "../customButton/customButton.component";
 
 const MesInformations = () => {
     return (
