@@ -3,6 +3,7 @@ import './App.scss';
 import LoqualisLogo from './assets/loqualisLogo.png';
 import NavExpandIcon from './assets/navOpenIcon.svg';
 import MesInformations from './components/mesInformations/mesInformations.component';
+import MonCorrespondant from './components/monCorrespondant/monCorrespondant.component';
 import Navigation from './components/navigation/navigation.component';
 
 const App = () => {
@@ -40,7 +41,7 @@ const App = () => {
                 <MesInformations />
               </div>
               <div className="col-12 col-md-4 d-flex justify-content-center mb-4">
-                <MesInformations />
+                <MonCorrespondant />
               </div>
             </div>
           </div>
