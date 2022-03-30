@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.40b044b0.css",
+    "main.js": "/static/js/main.335f7df8.js",
+    "static/js/787.1037ffef.chunk.js": "/static/js/787.1037ffef.chunk.js",
+    "static/media/jFleuryProfile.jpg": "/static/media/jFleuryProfile.2bee2ab2fe2b1b2e54e2.jpg",
+    "static/media/loqualisLogo.png": "/static/media/loqualisLogo.b2722937649887205cb5.png",
+    "static/media/settingsIcon.svg": "/static/media/settingsIcon.501663fe0f82eb6a628c94e81a8a17df.svg",
+    "index.html": "/index.html",
+    "static/media/offersIcon.svg": "/static/media/offersIcon.20a3beb96a30525f32c1d389b4c1b9e9.svg",
+    "static/media/partnersIcon.svg": "/static/media/partnersIcon.91a5120c3f0c71548f170b852c5f8796.svg",
+    "static/media/commandesIcon.svg": "/static/media/commandesIcon.d168ec94016d82fd8b4cc99e13666f90.svg",
+    "static/media/logoutIcon.svg": "/static/media/logoutIcon.5ff9cdf5c7e5d193e677b53a9702f662.svg",
+    "static/media/navOpenIcon.svg": "/static/media/navOpenIcon.91511249bb75ef7f609cddbbb7b220e2.svg",
+    "static/media/dashboardIcon.svg": "/static/media/dashboardIcon.94c65b14506d6fe64d94232138a99ad9.svg",
+    "main.40b044b0.css.map": "/static/css/main.40b044b0.css.map",
+    "main.335f7df8.js.map": "/static/js/main.335f7df8.js.map",
+    "787.1037ffef.chunk.js.map": "/static/js/787.1037ffef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40b044b0.css",
+    "static/js/main.335f7df8.js"
+  ]
+}
