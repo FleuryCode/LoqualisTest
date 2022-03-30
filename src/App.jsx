@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 import LoqualisLogo from './assets/loqualisLogo.png';
 import NavExpandIcon from './assets/navOpenIcon.svg';
-import CustomButton from './components/customButton/customButton.component';
+import MesInformations from './components/mesInformations/mesInformations.component';
 import Navigation from './components/navigation/navigation.component';
 
 const App = () => {
@@ -34,6 +34,17 @@ const App = () => {
           <div onClick={navigationButtonClickHandle} className="navOpenImage d-none d-md-block">
             <img id='navOpenButton' src={NavExpandIcon} alt="" />
           </div>
+          <div className="container-fluid">
+            <div className="row mt-4">
+              <div className="col-12 col-md-8 d-flex justify-content-center mb-4">
+                <MesInformations />
+              </div>
+              <div className="col-12 col-md-4 d-flex justify-content-center mb-4">
+                <MesInformations />
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 

@@ -1,5 +1,5 @@
 .App {
-    background-color: green;
+    background-color: #f3f3f3;
     .row>* {
         padding: 0;
     }
@@ -28,7 +28,6 @@
             margin-top: 10vh;
             width: 100px;
             position: fixed;
-            background-color: red;
             transition: width 0.5s ease-in-out;
 
             &.expandedNav {
@@ -41,7 +40,7 @@
             margin-top: 10vh;
             width: calc(100% - 100px);
             margin-left: 100px;
-            background-color: white;
+            background-color: #f3f3f3;
             transition: width 0.5s ease-in-out, margin-left 0.5s ease-in-out;
 
             &.reducedInfo {
@@ -63,10 +62,7 @@
                     }
                 }
             }
-
-            .buttonTest {
-                width: 200px;
-            }
+           
         }
     }
 }
