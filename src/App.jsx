@@ -2,6 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 import LoqualisLogo from './assets/loqualisLogo.png';
 import NavExpandIcon from './assets/navOpenIcon.svg';
+import Actus from './components/actus/actus.component';
 import MesCommandes from './components/mesCommandes/mesCommandes.component';
 import MesInformations from './components/mesInformations/mesInformations.component';
 import MonCorrespondant from './components/monCorrespondant/monCorrespondant.component';
@@ -36,8 +37,8 @@ const App = () => {
           <div onClick={navigationButtonClickHandle} className="navOpenImage d-none d-md-block">
             <img id='navOpenButton' src={NavExpandIcon} alt="" />
           </div>
-          <div className="container-fluid">
-            <div className="row mt-4">
+          <div className="container-fluid mt-5">
+            <div className="row">
               <div className="col-12 col-md-8 d-flex justify-content-center mb-4">
                 <MesInformations />
               </div>
@@ -46,6 +47,9 @@ const App = () => {
               </div>
               <div className="col-12 col-md-8 d-flex justify-content-center mb-4">
                 <MesCommandes />
+              </div>
+              <div className="col-12 col-md-4 d-flex justify-content-center mb-4">
+                <Actus />
               </div>
             </div>
           </div>
