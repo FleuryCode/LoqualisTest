@@ -1,0 +1,51 @@
+.App {
+    background-color: green;
+    .row>* {
+        padding: 0;
+    }
+
+    .topBar {
+        background-color: orange;
+        width: 100%;
+        padding: 0.4%;
+        height: 10vh;
+        display: flex;
+        position: fixed;
+        align-items: center;
+
+        img {
+            height: 8vh;
+        }
+    }
+
+    .mainInfoContainer {
+        display: flex;
+        flex-direction: row;
+        #mainNav {  
+            height: 90vh;
+            margin-top: 10vh;
+            width: 80px;
+            position: fixed;
+            background-color: red;
+            transition: width 0.5s ease-in-out;
+
+            &.expandedNav {
+                width: 300px;
+            }
+        }
+
+        #mainInfo {
+            min-height: 90vh;
+            margin-top: 10vh;
+            width: calc(100% - 80px);
+            margin-left: 80px;
+            background-color: white;
+            transition: width 0.5s ease-in-out, margin-left 0.5s ease-in-out;
+
+            &.reducedInfo {
+                width: calc(100% - 300px);
+                margin-left: 300px;
+            }
+        }
+    }
+}
