@@ -2,4 +2,6 @@
 
 Started with React template using npx create-react-app
 
-run npm install followed by npm start to launch application locally.
+To run, make sure node and npm are installed.
+
+In terminal run 'npm install' followed by 'npm start'.
